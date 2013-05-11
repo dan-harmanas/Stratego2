@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp spec="1.0" href="launch.jnlp">
+
+    <information>
+
+        <title>Game</title>
+        <vendor>Your Organisation</vendor>
+                        <icon href="icon.png"/>        <icon kind="splash" href="splash.jpg"/>        
+    </information>
+
+    <resources>
+        <j2se version="1.7+" />
+
+        
+        <jfx:javafx-runtime version="2.2+" />
+        
+
+        
+        <jar href="lib/commons-lang-2.6.jar"/>
+        
+        <jar href="lib/Game-1.0-SNAPSHOT.jar"/>
+        
+        <jar href="lib/jcl-over-slf4j-1.6.1.jar"/>
+        
+        <jar href="lib/log4j-1.2.16.jar"/>
+        
+        <jar href="lib/miglayout-core-4.2.jar"/>
+        
+        <jar href="lib/miglayout-javafx-4.2.jar"/>
+        
+        <jar href="lib/slf4j-api-1.6.1.jar"/>
+        
+        <jar href="lib/slf4j-log4j12-1.6.1.jar"/>
+        
+    </resources>
+
+    
+        <security>
+            
+                <all-permissions/>
+            
+        </security>
+    
+
+    <application-desc main-class="com.utcn.stratego.strategogame.game.MainApp"/>
+
+</jnlp>
